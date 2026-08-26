@@ -1,0 +1,26 @@
+# 1. SEGURIDAD Y VARIABLES DE ENTORNO
+.env
+*.env
+!.env.example
+
+# Entornos virtuales y caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# 2. ARCHIVOS TEMPORALES
+!data/raw/.gitkeep
+!data/historic/.gitkeep
+
+
+# 4. ARCHIVOS DEL SISTEMA Y EDITORES
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.log
+.vscode/
+.idea/
